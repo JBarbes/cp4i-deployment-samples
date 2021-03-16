@@ -7,7 +7,7 @@ The artefacts for this demo are currently stored in a different repository [Here
 
 The instructions to build and run this demo are in this repository in the Docs directory [Here](Docs/README.md) - click to get started!
 
-# DEPRECATION NOTICE for Image recognition
+# Deprecation Notice for Image recognition
 The Integrated Car Repair demo has a dependency on the Watson Visual Recognition service (to 'look' at the photo of the car and work out what type it is). Watson deprecated that service with the result that if you already had a Visual Recognition instance on IBM cloud, you could keep it for a year (to end 2021) but it you didn't then you couldn't create a new one.
 
 There is a new version of the demo flow ("Car Insurance Cognitive API Lab Short V2.yaml") which we've uploaded and will be visible in the Asset Repo - this does not have the image recognition code in it so it can be used if you don't have a Watson VR image.
